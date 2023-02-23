@@ -49,17 +49,17 @@ def gm620():
         print("successfully reset...")
 
 # 3
-def nokia():
+# def nokia():
 
-    connectTelnet('192.168.1.1', '', '', 23, 5)
-    time.sleep(0.5)
-    print("Processing...")
-    nokiaComnad = t.execute("cfgcli -r")
-    print(nokiaComnad)
+#     connectTelnet('192.168.1.1', '', '', 23, 5)
+#     time.sleep(0.5)
+#     print("Processing...")
+#     nokiaComnad = t.execute("cfgcli -r")
+#     print(nokiaComnad)
 
-    reboot = t.execute("reboot")
-    print(reboot)
-    print("successfully reset...")
+#     reboot = t.execute("reboot")
+#     print(reboot)
+#     print("successfully reset...")
 
 # if (onuType == 1):
 #     onu_huawei()
